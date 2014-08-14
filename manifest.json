@@ -1,0 +1,21 @@
+{
+  "name": "Bamboo Build Monitor",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Bamboo Build Monitor",
+  "icons": {
+    "48": "images/bamboo_48x48.png",
+    "128": "images/bamboo_128x128.png"
+  },
+  "permissions": [
+    "cookies",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Bamboo Build Monitor",
+    "default_icon": "images/bamboo_24x24.png",
+    "default_popup": "popup.html"
+  }
+}
+
